@@ -1,0 +1,8 @@
+#changing server port to 3000
+server:
+  port: 8080
+
+# not starting web server when application runs, default is 'servlet'
+spring:
+  main:
+    web-application-type: servlet
